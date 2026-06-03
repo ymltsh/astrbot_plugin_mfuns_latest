@@ -50,8 +50,10 @@ class MfunsLatestPlugin(Star):
         当用户询问 MFuns 最近有什么更新、最新视频、最新文章、最新动态、最近发布内容时使用此工具。
 
         Args:
-            type: 内容类型。可选值: all(全部), feed(动态), video(视频), article(文章)。默认 all。
-            limit: 返回数量。默认 10，最大 100。
+            type: str
+                内容类型。可选值: all(全部), feed(动态), video(视频), article(文章)。默认 all。
+            limit: int
+                返回数量。默认 10，最大 100。
         """
         limit = max(1, min(limit, 100))
         valid_types = {"all", "feed", "video", "article"}

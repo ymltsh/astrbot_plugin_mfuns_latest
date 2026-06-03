@@ -1,0 +1,6 @@
+name: astrbot_plugin_mfuns_latest
+author: ymltsh
+desc: 获取 MFuns（喵御宅/M站）最新内容，包括动态、视频和文章
+short_desc: 查询 MFuns 最新动态、视频与文章
+version: 1.0.0
+repo: https://github.com/ymltsh/astrbot_plugin_mfuns_latest.git
